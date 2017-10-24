@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="girl接口测试报告输出"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="2.640">
+  <properties />
+            <testcase name="testGetAllGirls1" time="2.495" classname="com.ls.apiservice.GetAllGirlsTest">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  message : 判断查询所有女孩接口，结果是否返回正确 expected [13] but found [12] in method : .testGetAllGirls1(GetAllGirlsTest:41)
+  com.ls.apiservice.GetAllGirlsTest.testGetAllGirls1(GetAllGirlsTest.java:41)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testGetAllGirls2" time="0.145" classname="com.ls.apiservice.GetAllGirlsTest" />
+      
+</testsuite>

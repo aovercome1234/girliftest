@@ -1,0 +1,7 @@
+service:
+  baseurl: http://localhost:8082/girl
+db:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/dbgirl
+  username: root
+  password: 123456
